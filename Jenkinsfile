@@ -1,9 +1,7 @@
 pipeline {
   agent any
   
-    tools {
-        gradle 8.1 
-    }
+    
     stages {        
         stage('Build Image') {
             steps {
