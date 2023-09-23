@@ -1,8 +1,6 @@
 pipeline {
   agent any
-  tools {
-    Gradle-6.2
-  }
+  
   stages {
     stage("run fronend") {
       steps {
