@@ -7,6 +7,8 @@ pipeline {
         echo 'executing yarn'
         nodejs('Node-20-07') {
           sh 'yarn install'
+          sh 'npm install gradle --save-dev'
+          
         }
         
       }
