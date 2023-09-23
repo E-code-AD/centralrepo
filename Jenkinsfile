@@ -19,6 +19,6 @@ pipeline {
 }
 node {
   withGradle {
-    sh './gradlew build'
+    sh 'gradle wrapper build'
   }
 }
